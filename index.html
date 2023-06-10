@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+<main class="container">
+  <div class="filterContainer">
+<header>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+<form id="survey-form">
+  <div class="each-input">
+  <label id="name-label">Name</label>
+  <input id ="name" type="text" placeholder="Enter your name" required/>
+  </div>
+  <div class="each-input">
+   <label id="email-label">Email</label>
+  <input id ="email" type="email" placeholder="Enter your Email" pattern=".+@globex\.com" required/>
+  </div>
+  <div class="each-input">
+   <label id="number-label">Age</label>
+  <input id ="number" type="number" placeholder="Age" min="0" max="120"/>
+  </div>
+  <div class="each-input">
+  <label>Which option best describes your current role?</label>
+  <select id ="dropdown"  >
+    <option>Select current role</option>
+    <option>Student</option>
+    <option>Full Time Job</option>
+    <option>Full Time Learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+    </select>
+    </div>
+    <div class="each-input">
+   <label>Would you recomment freeCodeCamp to your friend?</label><br/>
+  <input  type="radio" value= "definitely" class="input-radio" name="input-radio"/>
+  <label for="definitely">Definitely</label><br/>
+  <input  type="radio" value= "maybe" class="input-radio" name="input-radio"/>
+  <label for="maybe">Maybe</label><br/>
+  <input  type="radio" value= "not-sure" class="input-radio" name="input-radio" />
+  <label for="not-sure">Not sure</label>
+  </div>
+  <div class="each-input">
+<label>What is your favorite feature of freeCodeCamp?</label>
+<select id ="dropdown"  >
+    <option>Challenges</option>
+    <option>Projects</option>
+    <option>Community</option>
+    <option>Open Source</option>
+    </select>
+    </div>
+    <div class="each-input">
+<label>What would you like to see improved? (Check all that apply)</label><br/>
+<input type="checkbox" id="front-endProjects" value="front-endProjects" class="input-checkbox"/>
+<label for="front-endProjects">Front-end Projects</label><br/>
+<input type="checkbox" id="back-endProjects" value="back-endProjects" class="input-checkbox"/>
+<label for="back-endProjects">Back-end Projects</label><br/>
+<input type="checkbox" id="dataVisualization" value="dataVisualization" class="input-checkbox"/>
+<label for="dataVisualization">Data Visualization</label><br/>
+<input type="checkbox" id="challenges" value="challenges" class="input-checkbox"/>
+<label for="challenges">Challenges</label><br/>
+<input type="checkbox" id="openSourceCommunity" value="openSourceCommunity" class="input-checkbox"/>
+<label for="openSourceCommunity">Open Source Community</label><br/>
+<input type="checkbox" id="gitterHelpRooms" value="gitterHelpRooms" class="input-checkbox"/>
+<label for="gitterHelpRooms">Gitter help rooms</label><br/>
+<input type="checkbox" id="videos" value="videos" class="input-checkbox"/>
+<label for="videos">Videos</label><br/>
+<input type="checkbox" id="cityMeetups" value="cityMeetups" class="input-checkbox"/>
+<label for="cityMeetups">City Meetups</label><br/>
+<input type="checkbox" id="wiki" value="wiki" class="input-checkbox"/>
+<label for="wiki">Wiki</label><br/>
+<input type="checkbox" id="forum" value="forum" class="input-checkbox"/>
+<label for="forum">Forum</label><br/>
+<input type="checkbox" id="additionalCourses" value="additionalCourses" class="input-checkbox"/>
+<label for="additionalCourses">Additional Courses</label>
+</div>
+<div class="each-input">
+<label for="input-textarea">Any comments or suggestions?</label>
+<textarea type="textarea" id="input-textarea" placeholder="Enter your Comment here..."></textarea>
+</div>
+<div class="each-input">
+  <button id="submit" type = "submit">Submit</button>
+
+</form>
+</div>
+</main>
+</body>

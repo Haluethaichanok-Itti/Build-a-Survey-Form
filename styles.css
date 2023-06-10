@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  width:100%;
+  height:100%;
+ font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+ margin:0;
+display: flex;
+  justify-content: center;
+  box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+header p{
+  font-style: italic;
+}
+.container{
+ width:100%;
+ height:250%;
+background-image:url(https://p3.isanook.com/me/0/ud/15/79757/working.jpg);
+ background-size:cover, contain;
+background-position:center;
+  box-sizing:border-box;
+ 
+}
+
+.filterContainer{
+background: rgba(54,54,136,0.9);
+ width:100%;
+ height:100%;
+ box-sizing:border-box;
+ display: flex;
+flex-direction:column;
+align-items: center;
+color:white;
+font-family: 'Poppins', sans-serif;
+line-height: 2rem;
+padding-bottom: 5%;
+}
+#survey-form{
+  background: rgba(0,0,0,0.4);
+  border-radius: 0.25rem;
+ color:white;
+  width:50%;
+padding:2.5rem;
+line-height: 2rem;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+}
+#name, #email,#number, #dropdown, #input-textarea{
+  width:100%;
+  height:2rem;
+  border-radius: 0.25rem;
+  font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+color:gray;
+
+}
+.each-input{
+margin-top:1rem;
+}
+#input-textarea{
+  min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 0.25rem;
+}
+#submit{
+  color:white;
+  background-color:#37af65;
+  width:100%;
+  display: block;
+  border: transparent;
+    padding: 0.75rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.input-radio , .input-checkbox{
+  
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
